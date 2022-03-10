@@ -12,14 +12,9 @@ namespace SayThatAgain
         {
             if (KeyBindingDefOf.OpenLastLetter.JustPressed)
             {
-                if (SayThatAgainMod.LastOpenedLetter && SayThatAgainMod.LastLetter != null)
+                if (SayThatAgainMod.LastLetter != null)
                 {
                     SayThatAgainMod.LastLetter.OpenLetter();
-                }
-                else if (!SayThatAgainMod.LastOpenedLetter && SayThatAgainMod.LastQuest != null)
-                {
-                    Find.MainTabsRoot.SetCurrentTab(MainButtonDefOf.Quests, true);
-                    ((MainTabWindow_Quests)MainButtonDefOf.Quests.TabWindow).Select(SayThatAgainMod.LastQuest);
                 }
             }
         }

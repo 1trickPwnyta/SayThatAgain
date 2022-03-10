@@ -59,8 +59,7 @@
   <ItemGroup>
     <Compile Include="Debug.cs" />
     <Compile Include="KeyBindingDefOf.cs" />
-    <Compile Include="Patch_MainTabWindow_Quests_Select.cs" />
-    <Compile Include="Patch_ChoiceLetter_OpenLetter.cs" />
+    <Compile Include="Patch_LetterStack_RemoveLetter.cs" />
     <Compile Include="Patch_UIRoot_UIRootUpdate.cs" />
     <Compile Include="SayThatAgainMod.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

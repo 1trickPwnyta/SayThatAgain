@@ -10,8 +10,6 @@ namespace SayThatAgain
         public const string PACKAGE_NAME = "Say That Again";
 
         public static Letter LastLetter = null;
-        public static Quest LastQuest = null;
-        public static bool LastOpenedLetter = true;
 
         public SayThatAgainMod(ModContentPack content) : base(content)
         {
