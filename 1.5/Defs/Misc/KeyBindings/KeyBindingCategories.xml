@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+  <KeyBindingCategoryDef>
+    <defName>SayThatAgain</defName>
+    <label>Say That Again</label>
+    <description>Hotkey for the Say That Again mod.</description>
+    <isGameUniversal>false</isGameUniversal>
+    <checkForConflicts>
+      <li>Development</li>
+      <li>Game</li>
+      <li>SelectionMisc</li>
+      <li>MainTabs</li>
+    </checkForConflicts>
+  </KeyBindingCategoryDef>
+
+</Defs>

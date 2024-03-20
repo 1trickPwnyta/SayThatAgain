@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+  <KeyBindingDef Name="SayThatAgain" Abstract="true">
+    <category>SayThatAgain</category>
+  </KeyBindingDef>
+
+  <KeyBindingDef ParentName="SayThatAgain">
+    <category>SayThatAgain</category>
+    <defName>OpenLastLetter</defName>
+    <label>Open last letter/quest</label>
+    <defaultKeyCodeA>Backspace</defaultKeyCodeA>
+  </KeyBindingDef>
+
+</Defs>
