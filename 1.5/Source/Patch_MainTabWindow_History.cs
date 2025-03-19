@@ -53,6 +53,7 @@ namespace SayThatAgain
         }
     }
 
+    [StaticConstructorOnStartup]
     public static class PatchUtility_MainTabWindow_History
     {
         private static Texture2D stackIcon = ContentFinder<Texture2D>.Get("UI/SayThatAgain_Stack");
