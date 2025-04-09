@@ -58,7 +58,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Debug.cs" />
-    <Compile Include="KeyBindingDefOf.cs" />
     <Compile Include="Patch_Archive.cs" />
     <Compile Include="Patch_LetterStack_RemoveLetter.cs" />
     <Compile Include="Patch_MainTabWindow_History.cs" />
